@@ -4,6 +4,18 @@
 
 ---
 
+## 👥 Equipe
+
+| Nome | RM |
+|------|-----|
+| João Victor Caetano Alves da Silva | RM 562074 |
+| João Victor Bueno Castelini da Silva | RM 564115 |
+| Ryan Vetoriano | RM 565667 |
+| Felipe Furlanetto | RM 562766 |
+| Raul Rezende Iemini Aguiar | RM 564002 |
+
+---
+
 ## 📚 Conteúdo da Matéria
 
 - [Visão Geral](#visão-geral)
