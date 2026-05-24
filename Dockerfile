@@ -8,7 +8,8 @@ ENV SPRING_DATASOURCE_URL=jdbc:mysql://mysql-dimdim:3306/db-dimdim
 ENV SPRING_DATASOURCE_USERNAME=user-dimdim
 ENV SPRING_DATASOURCE_PASSWORD=senha-dimdim
 
-RUN adduser -h /home/appuser -s /bin/bash -D appuser
+RUN adduser --disabled-password --gecos "" --home /home/appuser --shell /bin/bash appuser \
+    && chown -R appuser:appuser /app /home/appuser
 
 USER appuser
 
