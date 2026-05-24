@@ -1,0 +1,10 @@
+FROM mysql:8.0
+
+ENV MYSQL_ROOT_PASSWORD=senha-futurevet
+ENV MYSQL_DATABASE=db-futurevet
+ENV MYSQL_USER=user-futurevet
+ENV MYSQL_PASSWORD=senha-futurevet
+
+COPY docker-entrypoint-initdb.d/init.sql /docker-entrypoint-initdb.d/init.sql
+
+EXPOSE 3306
