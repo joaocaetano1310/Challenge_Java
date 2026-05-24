@@ -3,7 +3,7 @@
 -- Executado automaticamente pelo container na primeira subida
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS db-futurevet
+CREATE DATABASE IF NOT EXISTS `db-futurevet`
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
 
